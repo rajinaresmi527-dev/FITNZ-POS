@@ -130,3 +130,4 @@ class AddUserDialog(bs.Toplevel):
             self.destroy()
         else:
             Messagebox.show_error("Username likely already exists.", "Database Error", parent=self
+
